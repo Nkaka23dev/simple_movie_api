@@ -4,5 +4,5 @@ from .models import Language
 from .serializers import LanguageSerializers 
 
 class LanguageView(viewsets.ModelViewSet):
-    querset=Language.objetcts.all()
-    serilaizer_class=LanguageSerializers
+    queryset=Language.objects.all()
+    serializer_class=LanguageSerializers
